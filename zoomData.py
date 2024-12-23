@@ -17,7 +17,7 @@ print('Setup Complete')
 zoomdf = pd.read_csv('Interaction_Data.csv')
 
 # Step 2: Drop unnecessary columns
-zoomdf = zoomdf.drop(columns=['Timestamp', 'Email address'])
+zoomdf = zoomdf.drop(columns=['Timestamp'])
 
 # Step 3: Combine all "Choose your pick" columns into a single list column
 choose_columns = [col for col in zoomdf.columns if "Choose your pick" in col]
