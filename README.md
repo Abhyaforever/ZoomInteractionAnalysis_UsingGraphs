@@ -20,4 +20,4 @@ We aim to:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ZoomInteractionAnalysis.git](https://github.com/Abhyaforever/ZoomInteractionAnalysis_UsingGraphs
+   git clone https://github.com/Abhyaforever/ZoomInteractionAnalysis_UsingGraphs.git
