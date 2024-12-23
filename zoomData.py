@@ -9,15 +9,9 @@ from networkx.algorithms.community import greedy_modularity_communities
 from textblob import TextBlob  # For sentiment analysis
 print('Setup Complete')
 
-# ---------------------- Load and Clean Data ---------------------- #
-
-# Read the dataset
-zoomdf = pd.read_csv('Interaction_Data.csv')
-#print(zoomdf.size)
-#print(zoomdf.head())
 
 
-# ---------------------- Load and Clean Data ---------------------- #
+# ---------------------- Load & Cleansing of Data ---------------------- #
 
 # Step 1: Load dataset
 zoomdf = pd.read_csv('Interaction_Data.csv')
