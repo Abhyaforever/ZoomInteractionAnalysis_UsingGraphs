@@ -1,3 +1,4 @@
 # Ignore Development Files 
 test.py
+*.csv
 .ipynb_checkpoints/
